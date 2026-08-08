@@ -36,6 +36,10 @@ async def lixo_no_rio(ctx):
 async def quiz(ctx):
     await ctx.send('abrido quiz da CRVR')
     await webbrowser('https://crvr.com.br/jogos/quiz-da-reciclagem/')
-    
+
+@bot.command()
+async def github(ctx):
+    await ctx.send("Abrido pagina do criador")
+    await webbrowser("https://github.com/Nicolas-Rocha-Almeida-Lima/Modulo-1")
 
 bot.run('...')

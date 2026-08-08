@@ -18,6 +18,9 @@ async def kodland(ctx):
     await ctx.send("Abrido pagina da web")
     await webbrowser.open('https://discordpy.readthedocs.io/en/stable/')
 
-
+@bot.command()
+async def github(ctx):
+    await ctx.send("Abrido pagina do criador")
+    await webbrowser("https://github.com/Nicolas-Rocha-Almeida-Lima/Modulo-1")
 
 bot.run('...')

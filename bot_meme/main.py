@@ -25,5 +25,10 @@ async def meme(ctx):
 async def criar(ctx):
     await ctx.send('Abrido editor de meme')
     await webbrowser.open('https://www.iloveimg.com/meme-generator')
+
+@bot.command()
+async def github(ctx):
+    await ctx.send("Abrido pagina do criador")
+    await webbrowser("https://github.com/Nicolas-Rocha-Almeida-Lima/Modulo-1")
 # Escreva a chave do seu bot
 bot.run('...')
